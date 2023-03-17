@@ -1,41 +1,48 @@
 {
-  "background_color": "#ffffff",
-  "description": "\"Web App desenvolvido em sala de aula para prática de desenvolvimento de PWA\"",
-  "dir": "auto",
-  "display": "standalone",
-  "name": "Luna's Read",
-  "orientation": "portrait",
-  "scope": "/",
-  "short_name": "Luna's",
-  "start_url": "https://lunasread.netlify.app",
-  "theme_color": "#eafdfd",
-  "categories": [
-    "books",
-    "education",
-    "entertainment",
-    "lifestyle",
-    "magazines",
-    "navigation"
-  ],
-  "screenshots": [],
-  "icons": [
+"name": "Luna's Read",
+"short_name": "Luna's",
+"start_url": "https://lunasread.netlify.app",
+"display": "standalone",
+"description": "Web App desenvolvido em sala de aula para prática de desenvolvimento de PWA",
+"lang": "port",
+"dir": "auto",
+"theme_color": "#EAFDFD",
+"background_color": "#ffffff",
+"orientation": "any",
+"icons": [
     {
-      "src": "favicon.ico",
-      "type": "image/x-icon"
+        "src": "https://lh3.googleusercontent.com/XtrRZnHBnaytVNoP1FGlWtEXnX4trLNX3woCsansvN7KHcHQVnePONO6tIqhhLmadCXgDFBBFkLEfsDmuyJIhiUS3sugRtmsyn3AqMfOkEi2zGTilEfYLRT2XafZeY2QfUoR3wYjp_36T6Uq2hgYMGPvckdBk9QGGH_NzhjpiTCMqnmgt9KyFq1yMCiDhTBOQRO7oHM3Txk-YRE8OB3oqe6INMkObImx9AM4Z7L5n-zcDNb0nJVfPUdqZNsKsHfQi9atdyAES8ypADXXEsCYSiwgalJl9V6Ey9OL1AHUMVDKXeSqxJ_dzNB2ctdB3OKITl6JyiB19BTpfkixMrnttFXkzJy1FypAr18OjpiMOjqGEI-eMF94BGpynHmxkrlL-BoKyoiDsCxDwaFY6N63LSKp-c10lc16SlDvc5wkKoc9QXGinGa5XUbvosVJc5TQ_j9idDE2i7Q7UdZYTKldIvGMkL5XMuJ87utATFqX34cZnSLpaoA7GwC0LXrqkl1JQtQtjnL6rI_rnfn7gtDNhpQmSutZJHiuwIa-86j7R2qNGHyh9B4s32GhB7h31qUoyNWfxQSzkevmaUJrqWvg75fTDglXXHu32TitE_wF56cm2o3dNlftffN6MearrX1hSb0HpIY_qXDlKSoCheE2MqlLp3gzD4Uk9gDkqjYVJsPY7G3X2QY1vtoSR636VkX0_Z2Q4M7FOlWFwoYwZRtTQhQkJqODjvrXBhhkihHtaKDci__GRu-1lIhLZcnMxudTBIIHQCpOlfJVy932nEn_FVKt77CM3xlBb5FsCSsIMaBUT07YJO7w47aImJlBkIJrSnYQj2bjYhvF6n8N40KJ9cGcHMeblCTdVQhf93sbWh2D3JlmeACVQ_HxdJV8MgzzymO_w1xEnrg1xocn_9-voJFQQh8jnXaqODKL6qZNluKbc0M_=s512-no?authuser=0",
+        "sizes": "512x512",
+        "type": "image/png",
+        "purpose": "maskable"
     },
     {
-      "src": "/favicon.ico",
-      "type": "image/x-icon"
+        "src": "https://lh3.googleusercontent.com/XtrRZnHBnaytVNoP1FGlWtEXnX4trLNX3woCsansvN7KHcHQVnePONO6tIqhhLmadCXgDFBBFkLEfsDmuyJIhiUS3sugRtmsyn3AqMfOkEi2zGTilEfYLRT2XafZeY2QfUoR3wYjp_36T6Uq2hgYMGPvckdBk9QGGH_NzhjpiTCMqnmgt9KyFq1yMCiDhTBOQRO7oHM3Txk-YRE8OB3oqe6INMkObImx9AM4Z7L5n-zcDNb0nJVfPUdqZNsKsHfQi9atdyAES8ypADXXEsCYSiwgalJl9V6Ey9OL1AHUMVDKXeSqxJ_dzNB2ctdB3OKITl6JyiB19BTpfkixMrnttFXkzJy1FypAr18OjpiMOjqGEI-eMF94BGpynHmxkrlL-BoKyoiDsCxDwaFY6N63LSKp-c10lc16SlDvc5wkKoc9QXGinGa5XUbvosVJc5TQ_j9idDE2i7Q7UdZYTKldIvGMkL5XMuJ87utATFqX34cZnSLpaoA7GwC0LXrqkl1JQtQtjnL6rI_rnfn7gtDNhpQmSutZJHiuwIa-86j7R2qNGHyh9B4s32GhB7h31qUoyNWfxQSzkevmaUJrqWvg75fTDglXXHu32TitE_wF56cm2o3dNlftffN6MearrX1hSb0HpIY_qXDlKSoCheE2MqlLp3gzD4Uk9gDkqjYVJsPY7G3X2QY1vtoSR636VkX0_Z2Q4M7FOlWFwoYwZRtTQhQkJqODjvrXBhhkihHtaKDci__GRu-1lIhLZcnMxudTBIIHQCpOlfJVy932nEn_FVKt77CM3xlBb5FsCSsIMaBUT07YJO7w47aImJlBkIJrSnYQj2bjYhvF6n8N40KJ9cGcHMeblCTdVQhf93sbWh2D3JlmeACVQ_HxdJV8MgzzymO_w1xEnrg1xocn_9-voJFQQh8jnXaqODKL6qZNluKbc0M_=s512-no?authuser=0",
+        "sizes": "192x192",
+        "type": "image/png",
+        "purpose": "any"
     }
-  ],
-  "shortcuts": [],
-  "lang": "pt",
-  "display_override": [
-    "browser",
-    "window-controls-overlay",
-    "standalone",
-    "fullscreen"
-  ],
-  "iarc_rating_id": "e58c174a-81d2-5c3c-32cc-34b8de4a52e9",
-  "prefer_related_applications": true
+],
+"screenshots": [
+    {
+        "src": "https://lh3.googleusercontent.com/XtrRZnHBnaytVNoP1FGlWtEXnX4trLNX3woCsansvN7KHcHQVnePONO6tIqhhLmadCXgDFBBFkLEfsDmuyJIhiUS3sugRtmsyn3AqMfOkEi2zGTilEfYLRT2XafZeY2QfUoR3wYjp_36T6Uq2hgYMGPvckdBk9QGGH_NzhjpiTCMqnmgt9KyFq1yMCiDhTBOQRO7oHM3Txk-YRE8OB3oqe6INMkObImx9AM4Z7L5n-zcDNb0nJVfPUdqZNsKsHfQi9atdyAES8ypADXXEsCYSiwgalJl9V6Ey9OL1AHUMVDKXeSqxJ_dzNB2ctdB3OKITl6JyiB19BTpfkixMrnttFXkzJy1FypAr18OjpiMOjqGEI-eMF94BGpynHmxkrlL-BoKyoiDsCxDwaFY6N63LSKp-c10lc16SlDvc5wkKoc9QXGinGa5XUbvosVJc5TQ_j9idDE2i7Q7UdZYTKldIvGMkL5XMuJ87utATFqX34cZnSLpaoA7GwC0LXrqkl1JQtQtjnL6rI_rnfn7gtDNhpQmSutZJHiuwIa-86j7R2qNGHyh9B4s32GhB7h31qUoyNWfxQSzkevmaUJrqWvg75fTDglXXHu32TitE_wF56cm2o3dNlftffN6MearrX1hSb0HpIY_qXDlKSoCheE2MqlLp3gzD4Uk9gDkqjYVJsPY7G3X2QY1vtoSR636VkX0_Z2Q4M7FOlWFwoYwZRtTQhQkJqODjvrXBhhkihHtaKDci__GRu-1lIhLZcnMxudTBIIHQCpOlfJVy932nEn_FVKt77CM3xlBb5FsCSsIMaBUT07YJO7w47aImJlBkIJrSnYQj2bjYhvF6n8N40KJ9cGcHMeblCTdVQhf93sbWh2D3JlmeACVQ_HxdJV8MgzzymO_w1xEnrg1xocn_9-voJFQQh8jnXaqODKL6qZNluKbc0M_=s512-no?authuser=0",
+        "sizes": "2880x1800",
+        "type": "image/png",
+        "description": "A screenshot of the home page"
+    }
+],
+"related_applications": [
+    {
+        "platform":"windows",
+        "url": " The URL to your app in that app store"
+    }
+],
+"prefer_related_applications": false,
+"shortcuts": [
+    {
+        "name":"The name you would like to be displayed for your shortcut",
+        "url":"The url you would like to open when the user chooses this shortcut. This must be a URL local to your PWA. For example: If my start_url is /, this URL must be something like /shortcut",
+        "description":"A description of the functionality of this shortcut"
+    }
+]
 }
