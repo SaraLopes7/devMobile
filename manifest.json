@@ -7,7 +7,7 @@
   "orientation": "portrait",
   "scope": "/",
   "short_name": "Luna's",
-  "start_url": "/index.html",
+  "start_url": "https://lunasread.netlify.app",
   "theme_color": "#ffffff",
   "categories": [
     "books",
