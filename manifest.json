@@ -1,0 +1,33 @@
+{
+  "background_color": "#eafdfd",
+  "description": "\"Web App criado em sala de aula para treinar desenvolvimento de PWA\"",
+  "dir": "auto",
+  "display": "standalone",
+  "name": "Luna's Read",
+  "orientation": "portrait",
+  "scope": "/",
+  "short_name": "Luna's",
+  "start_url": "/index.html",
+  "theme_color": "#ffffff",
+  "categories": [
+    "books",
+    "education",
+    "entertainment",
+    "lifestyle",
+    "magazines",
+    "navigation"
+  ],
+  "screenshots": [],
+  "icons": [
+    {
+      "src": "favicon.ico",
+      "type": "image/x-icon"
+    },
+    {
+      "src": "/favicon.ico",
+      "type": "image/x-icon"
+    }
+  ],
+  "shortcuts": [],
+  "lang": "pt"
+}
