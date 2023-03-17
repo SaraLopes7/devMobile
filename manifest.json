@@ -1,6 +1,6 @@
 {
-  "background_color": "#eafdfd",
-  "description": "\"Web App criado em sala de aula para treinar desenvolvimento de PWA\"",
+  "background_color": "#ffffff",
+  "description": "\"Web App desenvolvido em sala de aula para prática de desenvolvimento de PWA\"",
   "dir": "auto",
   "display": "standalone",
   "name": "Luna's Read",
@@ -8,7 +8,7 @@
   "scope": "/",
   "short_name": "Luna's",
   "start_url": "https://lunasread.netlify.app",
-  "theme_color": "#ffffff",
+  "theme_color": "#eafdfd",
   "categories": [
     "books",
     "education",
@@ -29,5 +29,13 @@
     }
   ],
   "shortcuts": [],
-  "lang": "pt"
+  "lang": "pt",
+  "display_override": [
+    "browser",
+    "window-controls-overlay",
+    "standalone",
+    "fullscreen"
+  ],
+  "iarc_rating_id": "e58c174a-81d2-5c3c-32cc-34b8de4a52e9",
+  "prefer_related_applications": true
 }
