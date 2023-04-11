@@ -2,7 +2,7 @@
 
 ![preview](.github/preview.png)
 
-🧷 Link do site: https://idyllic-klepon-762c76.netlify.app 
+🧷 Link do site: https://lunasread.netlify.app/ [![Netlify Status](https://api.netlify.com/api/v1/badges/5d6bdf50-c2fe-46bb-8e84-25733774d0fd/deploy-status)](https://app.netlify.com/sites/lunasread/deploys)
 
 Templete usado: 
 
